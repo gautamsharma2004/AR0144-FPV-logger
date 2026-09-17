@@ -138,15 +138,6 @@ Run `gpioinfo` on your SBC to find the correct values for your specific board.
 | USB offload stalls | FAT32 not mounted OR /Recordings owned by root | Format USB: `sudo mkfs.vfat -F 32 /dev/sdb1`; verify owner: `ls -la /home/radxa/Recordings` |
 | High CPU / dropped frames | ultrafast preset too aggressive | Reduce preset to "superfast"; or reduce resolution/FPS |
 
-**For detailed troubleshooting,** see `TROUBLESHOOTING.md`.
-
-## 🎓 Learning Resources
-
-* **AR0144 Datasheet:** https://www.onsemi.com/pub/Collateral/AR0144-D.PDF
-* **libgpiod Documentation:** https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/plain/README
-* **FFmpeg H.264 Encoding:** https://trac.ffmpeg.org/wiki/Encode/H.264
-* **Imitation Learning Survey:** https://arxiv.org/abs/1703.02702 (Ross et al., 2017)
-
 ## 📋 License
 
 Distributed under the **MIT License**. See `LICENSE` file for full details.
