@@ -113,20 +113,7 @@ FAT32 USB Drive (backup & post-processing)
 | **Heavy Equipment Operation** | Multi-limb coordination (excavators, cranes); operator blind spots | Log lever sequences & spatial reasoning → build autonomous subsystems |
 | **Surgical Robotics** | Minimally invasive procedures require instrument coordination | Record surgeon's technique → train robotic surgical assistants |
 
-## 📂 Repository Structure
 
-```
-AR0144-FPV-Logger/
-├── README.md                      # This file (recruiter-focused overview)
-├── record_camera.py              # Main Python daemon (fully documented)
-├── camera-recorder.service       # systemd service file
-├── TROUBLESHOOTING.md            # Detailed debugging & common failures
-├── LICENSE                        # MIT License
-└── docs/
-    ├── GPIO_WIRING_DIAGRAM.md    # Physical pin mappings (board-specific)
-    ├── PERFORMANCE_TUNING.md     # FFmpeg optimization & thermal notes
-    └── POST_PROCESSING.md        # Video reassembly & frame extraction
-```
 
 ## 🔧 Configuration
 
@@ -167,8 +154,7 @@ Distributed under the **MIT License**. See `LICENSE` file for full details.
 ## 👤 Author
 
 **Gautam Sharma**  
-Blue Heart Robotics PVT LTD  
-`gautamsharma2004` on GitHub
+
 
 ---
 
