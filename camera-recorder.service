@@ -1,0 +1,14 @@
+[Unit]
+Description=AR0144 Camera Recorder
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/python3 -u /root/camera_recorder.py
+Restart=on-failure
+RestartSec=5
+KillSignal=SIGTERM
+
+[Install]
+WantedBy=multi-user.target
